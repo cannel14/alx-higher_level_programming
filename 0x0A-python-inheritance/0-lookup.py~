@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+/*
+*def lookup(obj):function that returns the list of available attributes and methods of an object:
+*Returns : list
+*
+*/
+
+"module for task 0"
+
+def lookup(obj):
+    "returns all attributes and methods the object has"
+    return (dir(obj))
